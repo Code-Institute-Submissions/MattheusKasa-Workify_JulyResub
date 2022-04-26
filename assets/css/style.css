@@ -20,10 +20,13 @@ a {
 
 .header {
     background-color: #fff;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    top: 200px;
+
     z-index: 3;
 }
+
 
 .header ul {
    list-style: none;
@@ -139,8 +142,10 @@ h1, h2 {
     font-family: roboto, sans-serif;
     color: #000000;
     text-decoration: none;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    font-weight: 600;
 }
 
 
@@ -157,14 +162,4 @@ h1, h2 {
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     font-size: 400%;
-}
-
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    text-transform: capitalize;
-    text-transform: uppercase;
-    font-size: 600%;
-    font-weight: 800;
 }
