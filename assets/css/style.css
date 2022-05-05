@@ -23,16 +23,12 @@ a {
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 3;
+    z-index: 1;
 }
 
 #header-pic img{
     max-width: 100%;
     max-height: 25%;
-    
-    
-   
-
 }
 
 
@@ -305,10 +301,6 @@ button {
 
 button:hover {
   opacity:1;
-}
-
-.container {
-  padding: 16px;
 }
 
 .clearfix::after {
