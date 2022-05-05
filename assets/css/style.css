@@ -23,13 +23,13 @@ a {
     position: fixed;
     width: 100%;
     top: 0px;
-
     z-index: 3;
 }
 
 #header-pic img{
     max-width: 100%;
     max-height: 25%;
+    
     
    
 
@@ -190,7 +190,7 @@ h1, h2 {
 .about-image{
     position: relative;
     text-align: center;
-    color: #808080;
+    color: #fafafa;
 }
 
 .about-text {
@@ -210,7 +210,7 @@ h1, h2 {
 .workouts-image{
     position: relative;
     text-align: center;
-    color: #808080;
+    color: #fafafa;
 }
 
 .workouts-text{
@@ -279,6 +279,7 @@ h1, h2 {
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  opacity: 0.9;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -292,9 +293,9 @@ hr {
 }
 
 button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
+  background-color: #000000;
+  color: #f1f1f1;
+  padding: 24px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
@@ -305,17 +306,6 @@ button {
 button:hover {
   opacity:1;
 }
-
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
 
 .container {
   padding: 16px;
