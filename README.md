@@ -8,11 +8,26 @@
 
 ## Features
 
--Fixed navigation bar includes links to the different sections of the website, making it easy to navigate.
--Clicking the logo takes you to the top of the page.
+- Fixed navigation bar includes links to the different sections of the website, making it easy to navigate.
+- Clicking the logo takes you to the top of the page.
 
 ## Header
 - Introduction to the website, quick and easy way to see what were about.
 
 ## About us Section
-- 
+- A quick introduction about what the website can offer the user.
+
+## Workout Section
+- Info regarding our workouts
+
+## Diets Section
+- Info regarding our diets
+
+## Signup Section
+- Info regarding what you get if you signup.
+- A signup form consistin of email, password, repeat password and a sign up button.
+
+## Footer
+- Includes links to social media platforms
+- All links open in new tabs
+
