@@ -318,11 +318,7 @@ button:hover {
   display: table;
 }
 
-@media screen and (max-width: 400px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
+
 
 #signup-headers{
     font-size: 50px;
@@ -376,10 +372,21 @@ button:hover {
 
     #signup-form {
         position: relative;
+        max-width: fit-content;
         font-size: 10%;
+    
+    }
+
+    #signup-text{
+        max-width: fit-content;
+        display: inline;
     }
 
     #signup-headers {
         font-size: 10%;
     }
+
+    .cancelbtn, .signupbtn {
+        width: 100%;
+      }    
 }
