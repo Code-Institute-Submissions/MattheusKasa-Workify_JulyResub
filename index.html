@@ -13,7 +13,7 @@
 
 <body>
     <div>
-    <header class="header">
+    <header class="header" id="header">
         <a href="index.html" class="logo">Workify</a>
         <input class="menu-btn" type="checkbox" id="menu-btn">
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
@@ -26,13 +26,21 @@
     </div>
     </header>
 
+    <section id="header-section">
+
+        <div class="main-image" id="header-image">
+        <img src="assets/images/pexels-lukas-669578 (2).jpg" alt="" id="header-pic">
+        <div class="centered">
+        <h3 id="h3-title">Here to help you get better</h3>
+        </div>
+    </section>
     
     <section id="aboutus-section">
 
         <div class="about-image" id="about-image">
         <img src="/assets/images/pexels-leon-ardho-1552242.jpg" alt="">
         <div class="about-text">
-            <h3>About us</h3>
+            <h3 id="h3-title">About us</h3>
             <p id="h3-section" >Were here to not only help you get in shape, but to stay that way</p>
         </div>
     </section>
@@ -42,7 +50,7 @@
         <div class="workouts-image" id="workouts-image">
             <img src="/assets/images/pexels-victor-freitas-2261477.jpg" alt="">
         <div class="workouts-text">
-            <h3>Workouts</h3>
+            <h3 id="h3-title">Workouts</h3>
             <p id="h3-section">A workout routine customised to your needs</p>
         </div>
     </section>
@@ -52,7 +60,7 @@
             <div class="diets-image" id="diets-image">
                 <img src="/assets/images/pexels-taryn-elliott-4099238.jpg" alt="">
             <div class="diets-text">
-                <h3>Diets</h3>
+                <h3 id="h3-title">Diets</h3>
                 <p id="h3-section">A good diet could be what keeps you from hitting or missing your goals.</p>
             </div>
         </section>
@@ -62,11 +70,11 @@
             <div class="signup-image" id="signup-image">
                 <img src="/assets/images/pexels-andrea-piacquadio-3757941.jpg" alt="">
             <div class="signup-text">
-                <h3>Sign Up</h3>
+                <h3 id="h3-title">Sign Up</h3>
                 <p id="h3-section">Sign up for weekly workout tips and lots of healthy recipes</p>
                 <hr>
 
-                <form>
+                <form id="signup-form">
 
                 <label for="email" id="signup-headers">Email</label>
                 <input type="text" placeholder="Email" name="email" required>

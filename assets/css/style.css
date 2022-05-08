@@ -18,10 +18,11 @@ a {
 
 /* heading and logo */
 
+
+
 .header {
     background-color: #fff;
-    position: absolute;
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0px;
     z-index: 1;
@@ -39,6 +40,7 @@ a {
    overflow: hidden;
    background-color: #fff;
    max-width: 100%;
+   
 }
 
 .header ul a{
@@ -348,10 +350,37 @@ button:hover {
     color: #000000;
 }
 
-#wholepage {
-    position: absolute; margin: 0px; width: 100%;
-}
 
-@media screen {
-    font-size: 30px;
+
+@media screen and (max-width: 600px) {
+    
+    .h3 {
+        position: relative;
+        width: fit-content;
+    }
+
+    .p {
+        font-size: 10%;
+    }
+
+    #h3-section {
+        width: fit-content;
+        font-size: 15%;
+        position: relative;
+    }
+
+    #h3-title {
+        font-size: 25%;
+        position: relative;
+    }
+
+    #signup-form {
+        position: relative;
+        font-size: 10%;
+    }
+
+    #signup-headers {
+        font-size: 10%;
+    }
+
 }
