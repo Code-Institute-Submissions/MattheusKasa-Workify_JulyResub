@@ -382,7 +382,7 @@ button:hover {
         position: relative;
     }
 
-    #h3-title {
+    .h3-title {
         font-size: 25%;
         position: relative;
     }
@@ -402,6 +402,11 @@ button:hover {
     }
 
     #signup-headers {
-        font-size: 75%;
+        font-size: 30%;
     }
+
+    #sida2 {
+
+    }
+
 }
