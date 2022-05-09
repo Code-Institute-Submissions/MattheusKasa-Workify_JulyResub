@@ -325,6 +325,13 @@ button:hover {
     font-weight: bold;
 }
 
+#signup-link {
+    font-size: 20%;
+    position: relative;
+    text-align: center;
+    
+}
+
 /* Footer Social networks */
 
 #footer{
@@ -346,6 +353,16 @@ button:hover {
     color: #000000;
 }
 
+@media screen and (min-width: 400px) {
+
+    #signup-mobile {
+        display: none;
+    }
+
+    #signup-link {
+        display: none;
+    }
+}
 
 
 @media screen and (max-width: 600px) {
@@ -374,7 +391,7 @@ button:hover {
         position: absolute;
         max-width: 100%;
         font-size: 10%;
-        
+        display: none;
         
     
     }
