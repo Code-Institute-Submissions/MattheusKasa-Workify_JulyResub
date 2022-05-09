@@ -371,9 +371,11 @@ button:hover {
     }
 
     #signup-form {
-        position: relative;
-        max-width: fit-content;
+        position: absolute;
+        max-width: 100%;
         font-size: 10%;
+        
+        
     
     }
 
@@ -385,8 +387,4 @@ button:hover {
     #signup-headers {
         font-size: 10%;
     }
-
-    .cancelbtn, .signupbtn {
-        width: 100%;
-      }    
 }
