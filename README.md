@@ -44,4 +44,12 @@
 
 ## Validator Testing
 - HTML
--- 
+  - No errors were found when passing through the official W3C HTML validator
+
+- CSS
+  - No errors were found when passing through the oficcial W3C CSS validator
+
+- Accessibility
+  - sdas
+  - Desktop
+  - Mobile
