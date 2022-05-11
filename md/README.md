@@ -5,6 +5,7 @@
 - My motivation for making this website was my new found interest in working out and trying to get a better understanding of health and fitness.
 - I built this website because i found it very interesting. I though it would be a good project to try out my newfound skills.
 - I learned alot from this project. Everthing from user friendliness to 
+---
 
 ## Features
 
@@ -36,8 +37,7 @@
 
 ---
 
-# Testing
-
+## Testing
 - Tested the website in Chrome and Samsung internet browser for both mobile and desktop.
 - Tested and confirmed that the website is responsive on all screen sizes using dev tools.
 - Tested and confirmed that the form works, requires entries in every field and the submit button works.
@@ -50,6 +50,7 @@
   - No errors were found when passing through the oficcial W3C CSS validator
 
 - Accessibility
-  - sdas
   - Desktop
+  ![alt text](workify-lighthouse-desktop.jpg)
   - Mobile
+  ![alt text](workify-lighthouse-mobile.jpg)

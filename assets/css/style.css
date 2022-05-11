@@ -144,9 +144,8 @@ h1, h2 {
 }
 
 #header-image img{
-    max-width: 100%;
-    max-height: 25%;
     width: 100%;
+    height: auto;
 }
 
 .main-text {
@@ -160,8 +159,8 @@ h1, h2 {
 }
 
 #about-image img{
-    max-width: 100%;
-    max-height: 25%;
+    width: 100%;
+    height: auto;
 }
 
 .about-image{
@@ -180,8 +179,8 @@ h1, h2 {
 }
 
 #workouts-image img{
-    max-width: 100%;
-    max-height: 25%;
+    width: 100%;
+    height: auto;
 }
 
 .workouts-image{
@@ -200,8 +199,8 @@ h1, h2 {
 }
 
 #diets-image img{
-    max-width: 100%;
-    max-height: 25%;
+    width: 100%;
+    height: auto;
 }
 
 .diets-image{
@@ -220,8 +219,8 @@ h1, h2 {
 }
 
 #signup-image img{
-    max-width: 100%;
-    max-height: 25%;
+    width: 100%;
+    height: auto;
 }
 
 .signup-image{
