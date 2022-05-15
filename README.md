@@ -51,6 +51,6 @@
 
 - Accessibility
   - Desktop
-  ![alt text](workify-lighthouse-desktop.jpg)
+  ![alt text](md/workify-lighthouse-desktop.jpg)
   - Mobile
-  ![alt text](workify-lighthouse-mobile.jpg)
+  ![alt text](md/workify-lighthouse-mobile.jpg)
