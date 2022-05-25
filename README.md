@@ -97,9 +97,9 @@ The live website can be found here; [Workify](https://mattheuskasa.github.io/Wor
   - ### When adapting the site for mobile i had multiple issues with the signup form not scaling properly, i solved this by providing a link to a different site with the signup form.
   - ### Had problems with the header not following when scrolling, i solved this by giving the header and id and putting the position to fixed.
 
-  - ## Unsolved
+   ## Unsolved
 
-  - ### No unsolved bugs.
+   ### No unsolved bugs.
 
 ---
 
