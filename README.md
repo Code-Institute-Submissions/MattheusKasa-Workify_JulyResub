@@ -21,7 +21,8 @@ The live website can be found here; [Workify](https://mattheuskasa.github.io/Wor
 ![Navigation Bar](md/workify-navbar.png)
 
 ## Header
-- ### Introduction to the website, quick and easy way to see what were about.
+- ### Introduction to the website, quick and easy way to see what we're about.
+
 
 ![Header](md/workify-header.png)
 
@@ -99,3 +100,12 @@ The live website can be found here; [Workify](https://mattheuskasa.github.io/Wor
   - ## Unsolved
 
   - ### No unsolved bugs.
+
+---
+
+ # Credits
+
+ - ## Support of documentation in [W3schools.](https://www.w3schools.com/)
+ - ## Icons from [Font Awesome.](https://fontawesome.com/)
+ - ## Images created and resized using Microsoft Paint.
+ - ## Images found at [Pexels](https://www.pexels.com/)
