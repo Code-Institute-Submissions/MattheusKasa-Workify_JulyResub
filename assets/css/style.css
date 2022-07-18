@@ -128,7 +128,7 @@ p {
 }
 
 h1, h2 {
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #000000;
     text-decoration: none;
     margin-left: 20px;
@@ -137,30 +137,18 @@ h1, h2 {
     font-weight: 600;
 }
 
-.main-image {
-    position: relative;
-    text-align: center;
-    color: #000000;
-}
-
 #header-image img{
-    width: 100%;
+    width: 50%;
     height: auto;
+    display: inline;
 }
 
 .main-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    font-size: 900%;
-    font-weight: bold;
+    position: relative;
 }
 
-#about-image img{
-    width: 100%;
-    height: auto;
+.header-section {
+    display: inline-block;
 }
 
 .about-image{
