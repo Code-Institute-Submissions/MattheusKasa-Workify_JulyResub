@@ -137,10 +137,9 @@ h1, h2 {
     font-weight: 600;
 }
 
-#header-image img{
+#header-image img {
     width: 100%;
     height: auto;
-    display: inline;
 }
 
 .main-text {
@@ -154,6 +153,7 @@ h1, h2 {
 }
 
 .subtext {
+    padding-top: 20px;
     font-size: 50%;
 }
 
