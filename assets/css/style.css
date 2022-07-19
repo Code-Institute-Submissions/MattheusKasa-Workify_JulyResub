@@ -403,3 +403,22 @@ button:hover {
         font-size: 30%;
     }
 }
+
+
+/*-------------------------------------ROW*/
+
+.row {
+    display: flex;
+}
+
+.row img {
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+/*-------------------------------------container*/
+
+.container {
+    
+}
