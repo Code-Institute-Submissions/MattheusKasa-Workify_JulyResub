@@ -138,18 +138,26 @@ h1, h2 {
 }
 
 #header-image img{
-    width: 50%;
+    width: 100%;
     height: auto;
     display: inline;
 }
 
 .main-text {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 900%;
+    font-weight: bold;
+    text-align: center;
 }
 
-.header-section {
-    display: inline-block;
+.subtext {
+    font-size: 50%;
 }
+
+
 
 .about-image{
     position: relative;
