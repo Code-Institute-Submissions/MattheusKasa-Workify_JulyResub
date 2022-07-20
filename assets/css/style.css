@@ -428,6 +428,7 @@ button:hover {
 
 .row {
     display: flex;
+    display: flexbox;
 }
 
 .row img {
@@ -438,7 +439,12 @@ button:hover {
 /*-------------------------------------container*/
 
 .container {
-    display: block;
+    display: inline-block;
     text-align: center;
+}
+
+.container img {
+    display: inline-block;
+    height: 600px;
 }
 
