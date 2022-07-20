@@ -17,9 +17,10 @@ a {
 }
 
 p {
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
     font-weight: bold;
+    padding: 20px;
 }
 
 /* heading and logo */
@@ -127,7 +128,7 @@ p {
     top: 0;
 }
 
-h1, h2 {
+h1 {
     font-family: "Roboto", sans-serif;
     color: #000000;
     text-decoration: none;
@@ -137,9 +138,23 @@ h1, h2 {
     font-weight: 600;
 }
 
+h2 {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 200%;
+    padding-top: 20px;
+}
+
 #header-image img {
     width: 100%;
     height: auto;
+}
+
+.header-section {
+    position: relative;
+    text-align: center;
 }
 
 .main-text {
@@ -413,12 +428,13 @@ button:hover {
 
 .row img {
     width: 100%;
-    padding-left: 10px;
 }
 
 
 /*-------------------------------------container*/
 
 .container {
-    
+    display: block;
+    text-align: center;
 }
+
