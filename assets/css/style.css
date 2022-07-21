@@ -31,6 +31,7 @@ p {
     width: 100%;
     top: 0px;
     z-index: 1;
+    font-weight: bold;
 }
 
 .header ul {
@@ -392,27 +393,15 @@ button:hover {
         font-size: 100%;
     }
     
-    .h3 {
+    h3 {
         position: relative;
-        width: fit-content;
+        font-size: 25%;
     }
 
     .h3-section {
         width: fit-content;
         font-size: 15%;
         position: relative;
-    }
-
-    .h3-title {
-        font-size: 25%;
-        position: relative;
-    }
-
-    #signup-form, sida2 {
-        position: absolute;
-        max-width: 100%;
-        font-size: 10%;
-        
     }
 
     #signup-text{
@@ -422,6 +411,11 @@ button:hover {
 
     .signup-headers {
         font-size: 30%;
+    }
+
+    .row img{
+        float: left;
+        display: block;
     }
 }
 
@@ -449,6 +443,5 @@ button:hover {
     display: inline-block;
     height: 600px;
     width: 100%;
-    padding: 20px;
 }
 
