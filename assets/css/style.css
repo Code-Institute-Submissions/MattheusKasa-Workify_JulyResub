@@ -156,6 +156,12 @@ h3 {
     height: auto;
 }
 
+.header-image {
+    position: relative;
+    text-align: center;
+    height: auto;
+}
+
 .header-section {
     position: relative;
     text-align: center;
@@ -377,18 +383,6 @@ button:hover {
     }
 }
 
-/* media rule for 400px and up */
-
-@media screen and (min-width: 400px) {
-
-    #signup-mobile {
-        display: none;
-    }
-
-    #signup-link {
-        display: none;
-    }
-}
 
 /* media rule for 600px and down */
 
