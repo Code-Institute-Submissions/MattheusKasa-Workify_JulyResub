@@ -308,6 +308,10 @@ button:hover {
     font-weight: bold;
 }
 
+#signup-h2 {
+    padding-bottom: 100px;
+}
+
 #signup-link {
     font-size: 50%;
     position: relative;
@@ -315,6 +319,10 @@ button:hover {
     font-weight: bold;
     color: #000000;
     bottom: 30px;
+}
+
+#signup-form {
+    background-color: #fafafa;
 }
     
 #signup-form-mobile {
@@ -410,7 +418,7 @@ button:hover {
         position: absolute;
         max-width: 100%;
         font-size: 10%;
-        display: none;
+        
     }
 
     #signup-text{
@@ -447,5 +455,6 @@ button:hover {
     display: inline-block;
     height: 600px;
     width: 100%;
+    padding: 20px;
 }
 
