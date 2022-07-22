@@ -408,11 +408,15 @@ button:hover {
 
     .h3-title {
         padding-top: 25px;
-        font-size: 20%;
+        font-size: 50%;
     }
 
     .h3-section {
-        font-size: 10%;
+        font-size: 25%;
+    }
+    
+    .hero-img {
+        min-height: 500px;
     }
 
     .column {
