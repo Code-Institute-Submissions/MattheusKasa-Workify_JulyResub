@@ -424,4 +424,9 @@ button:hover {
         display: block;
         width: 100%;
     }
+
+    .signup-headers {
+        font-size: 80%;
+    }
+
 }
