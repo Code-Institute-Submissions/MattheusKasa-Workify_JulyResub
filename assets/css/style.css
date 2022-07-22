@@ -98,7 +98,7 @@
     max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon{
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
     background: transparent;
 }
 
@@ -107,7 +107,7 @@
     top: 0;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::after{
+.header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     transform: rotate(45deg);
     top: 0;
 }
@@ -303,8 +303,17 @@ button:hover {
     background-color: #fafafa;
 }
 
-/*-------------------------------------ROW*/
+/*-------------------------------------container*/
 
+.container {
+    width: auto;
+ }
+ 
+ .container img {
+     display: block;
+     height: 600px;
+ }
+ 
 .row {
     display: flex;
     
@@ -320,8 +329,10 @@ button:hover {
     clear: both;
 }
 
-
-
+.column {
+    width: 50%;
+    float: left;
+}
 
 /* Footer Social networks */
 
@@ -373,7 +384,6 @@ button:hover {
     .header .menu-icon{
         display: none;
     }
-
 }
 
 /* media rule for 600px and down */
@@ -418,29 +428,4 @@ button:hover {
         display: block;
         width: 100%;
     }
-
-    
-
 }
-
-
-
-
-
-
-/*-------------------------------------container*/
-
-.container {
-   width: auto;
-}
-
-.container img {
-    display: block;
-    height: 600px;
-}
-
-.column {
-    width: 50%;
-    float: left;
-}
-
