@@ -146,6 +146,7 @@ h2 {
     font-weight: bold;
     font-size: 200%;
     padding-top: 20px;
+    text-align: center;
 }
 
 h3 {
@@ -331,10 +332,26 @@ button:hover {
 #signup-form {
     background-color: #fafafa;
 }
+
+/*-------------------------------------ROW*/
+
+.row {
+    display: flex;
     
-#signup-form-mobile {
-    font-size: 200%;
 }
+
+.row img {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
 
 /* Footer Social networks */
 
@@ -382,66 +399,70 @@ button:hover {
     .header .menu-icon{
         display: none;
     }
-}
 
+}
 
 /* media rule for 600px and down */
 
 @media screen and (max-width: 600px) {
 
-    p {
-        font-size: 100%;
-    }
-    
-    h3 {
-        position: relative;
-        font-size: 25%;
+    .h3-title {
+        padding-top: 25px;
+        font-size: 20%;
     }
 
     .h3-section {
-        width: fit-content;
-        font-size: 15%;
-        position: relative;
+        font-size: 10%;
     }
 
-    #signup-text{
-        max-width: fit-content;
-        display: inline;
-    }
-
-    .signup-headers {
-        font-size: 30%;
-    }
-
-    .row img{
+    .column {
+        width: 100%;
+        padding: 0;
         float: left;
+        display: contents;
+    }
+
+    .row {
         display: block;
     }
+
+    .row img {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        flex-flow: row;
+    }
+
+    .container-img {
+        display: block;
+        width: 100%;
+    }
+
+    
+
 }
 
 
-/*-------------------------------------ROW*/
 
-.row {
-    display: flex;
-    display: flexbox;
-}
 
-.row img {
-    width: 100%;
-}
 
 
 /*-------------------------------------container*/
 
 .container {
-    display: inline-block;
-    text-align: center;
+   width: auto;
 }
 
 .container img {
-    display: inline-block;
+    display: block;
     height: 600px;
-    width: 100%;
+}
+
+.column {
+    width: 50%;
+    float: left;
 }
 
