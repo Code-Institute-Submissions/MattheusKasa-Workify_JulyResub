@@ -399,10 +399,6 @@ button:hover {
         font-size: 25%;
     }
     
-    .hero-img {
-        min-height: 500px;
-    }
-
     .column {
         width: 100%;
         padding: 0;
