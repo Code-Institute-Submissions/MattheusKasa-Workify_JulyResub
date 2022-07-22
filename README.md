@@ -124,6 +124,7 @@
   - ### When adapting the site for mobile i had multiple issues with the signup form not scaling properly, i solved this by putting the form under the image next to it when on mobile.
   - ### Had problems with the header not following when scrolling, i solved this by giving the header and id and putting the position to fixed.
   - ### Accesibility was at 80% due to the size of the images. I solved this by replacing all the images of ones with a lower resolution.
+  - ### Some of the images were not showing on the live site. I solved this by removing / on the start of the img src.
 
   - ## Unsolved
 
